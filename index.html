@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Landing page</title>
+    <link rel="stylesheet" href="dist/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: url(img/background1.png);
+            background-repeat: no-repeat;
+            background-position: top right;
+            background-size: 40vmax;
+        }
+
+        @media (min-width:1024px) {
+            body {
+                background-size: 60vmax;
+            }
+        }
+    </style>
+</head>
+<body>
+<!-- header start -->
+<header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+    <div class="container">
+        <div class="flex items-center justify-between relative">
+            <div class="px-4">
+                <a href="#home" class="font-bold text-lg text-dark block py-6">
+                    <img src="img/logo.png" alt="Berkat jaya" width="30">Berkat Jaya
+                </a>
+            </div>
+            <div class="flex items-center justify-center px-4">
+                <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                    <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                    <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                    <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+                </button>
+
+                <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                    <ul class="block lg:flex">
+                        <li class="group ">
+                            <a href="#home" class="text-base text-dark py-2 mx-6 flex group-hover:text-main uppercase">home</a>
+                        </li>
+                        <li class="group ">
+                            <a href="#about" class="text-base text-dark py-2 mx-6 flex group-hover:text-main uppercase">about us</a>
+                        </li>
+                        <li class="group ">
+                            <a href="#activity" class="text-base text-dark py-2 mx-6 flex group-hover:text-main uppercase">activity</a>
+                        </li>
+                        <li class="group ">
+                            <a href="#contact" class="text-base text-dark py-2 mx-6 flex group-hover:text-main uppercase">contact</a>
+                        </li>
+                        <li class="group ">
+                            <a href="#blog" class="text-base text-dark py-2 mx-6 flex group-hover:text-main uppercase">blog</a>
+                        </li>
+                        <button class="group text-dark sm:rounded-none hover:text-main lg:hover:text-white lg:bg-main lg:rounded-full px-6 py-2 uppercase lg:text-white lg:hover:shadow-lg hover:bg-opacity-70 transition duration-300 ease-in-out">
+                            <a href="#signup">sign up</a>
+                        </button>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- header end -->
+
+<!-- hero start -->
+<section id="home" class="pt-72">
+    <div class="container">
+        <div class="flex">
+            <div class="px-4 lg:w-1/2">
+                <h1 class="text-lg text-main font-semibold md:text-lg lg:text-4xl">How to work with</h1>
+                <h2 class="text-xl text-dark font-semibold md:text-xl lg:text-5xl">your team effectively?</h2>
+                <p class="px-2 py-4 text-medium text-slate-400">You must be able to convey information via phone,email <br>and in person. You want to make sure your tune is always <br>proffesional but friendly.</p>
+
+                <button class="my-4 mx-2">
+                    <a href="#start" class="px-4 py-2 bg-main text-white font-semibold rounded-xl uppercase hover:shadow-lg hover:bg-opacity-75 transition duration-300 ease-in-out">start now</a>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- hero end -->
+
+<!-- main start -->
+<section class="pt-36 pb-32 lg:pt-60">
+    <div class="container">
+        <div class="ml-5 lg:ml-10 ">
+            <img src="img/hilal-removebg.png" alt="hilal fadilah" title="hilalfadilah" class="w-[100px] h-[128px] border border-white rounded-full cursor-pointer">
+            <h1 class="mt-5 font-bold uppercase text-lg text-dark lg:text-2xl">M.Hilal Fadilah</h1>
+            <p class="mt-4 text-base text-slate-400 lg:text-xl">Web Development | Photograpy</p>
+
+            <button class="my-4 mt-10">
+                <a href="#start" class="px-6 py-3 bg-main text-white font-semibold rounded-xl uppercase hover:shadow-lg hover:bg-opacity-75 transition duration-300 ease-in-out">contact</a>
+            </button>
+
+            <p class="mt-5 font-semibold text-dark lg:w-full">There are tons of ways to convince customers to take advantage of your offer. One of them is the company's website, designed to achieve business goals. In some cases, however, a landing page may be a better solution. When is it worth using?</p>
+
+            <h2 class="mt-14 text-xl font-bold text-dark lg:text-3xl">Landing Page - Definition</h2>
+            <p class="mt-10 text-base lg:text-lg">A landing page is a website created for a very specific purpose (e.g. in a sales campaign for a new product), the purpose of which is to encourage Internet users to take specific actions.</p>
+
+            <p class="mt-10 text-base lg:text-lg">Typically, a landing page consists of a single page (with no additional tabs) filled with sections and call-to-action (CTA) slogans that encourage visitors to take specific steps.</p>
+
+            <p class="mt-10 text-base lg:text-lg">Create a landing page with website creators like <span class="text-sky-700 font-bold">BOWWE</span> and Squarspace takes a few minutes.</p>
+
+            <h2 class="mt-14 text-xl font-bold text-dark lg:text-3xl">What is a landing page useful for ?</h2>
+            <p class="mt-10 text-base lg:text-lg">Contrary to appearances, not only to sell. Often the task of landing pages is to lead as many users as possible to the next stages of sales. If the landing page collects contact details of potential customers with whom you can then communicate - it increases their interest in the products or services you offer. It also increases the level of their commitment and relationship with your brand, which is important in building the sales process.</p>
+
+            <p class="mt-10 text-lg lg:text-xl">How to successfully build such a process from scratch? You will find out in <span class="underline font-semibold cursor-pointer">article below!</span></p>
+
+            <p class="mt-10 text-base lg:text-lg"><span class="font-bold">Landing pages are especially effective in advertising campaigns. Then they bring much better results</span> than regular websites, which often have many functions and are targeted at many groups of recipients. However, in an advertising campaign, it is extremely important to focus your message on one thing that we want to convince potential customers to visit the landing page. All information should be visible, easily accessible, and intuitive, execution of the expected action by the client - very simple. Thanks to this simplicity of information and focus on one goal, a landing page will usually be much more effective in terms of its implementation.</p>
+
+            <div class="container mt-14 px-6 max-w-xl mx-auto sm:max-w-xl md:max-w-5xl lg:flex lg:max-w-full lg:p-0">
+    
+                <div class="lg:p-12 lg:flex-1">
+                    <h3 class="text-dark text-xl font-bold md:text-2xl lg:text-5xl">Does a small company need landing pages?</h3>
+                    <img src="img/picture3.jpg" alt="laptop" class="mt-10 rounded-xl shadow-xl md:mt-6 md:h-80 md:w-full md:object-cover sm:object-center lg:hidden">
+                
+                    <p class="mt-10 text-lg md:text-lg lg:text-4xl">
+                    What purpose can the landing page pursue? It depends on the industry in which you operate and your business.</p>
+                    
+                </div>
+                    <div  class="hidden lg:flex lg:w-1/2">
+                        <img src="img/picture3.jpg" alt="laptop" class="object-cover rounded-l-xl ">
+                    </div>
+            </div>
+
+            <p class="mt-10 text-base lg:text-lg">Examples of small business goals that landing pages can help achieve:</p>
+            
+            <ul class="px-12 pt-5 list-disc text-base md:text-lg">
+                    <li>Subscribing to the newsletter</li>
+                    <li>Downloading the product catalog or offered services</li>
+                    <li>Providing contact details</li>
+                    <li>Downloading promotional materials, eg a free e-book</li>
+                    <li>Make an appointment at hairdressing or beauty salon</li>
+                    <li>Booking of hotel accomodation</li>
+                    <li>Enrollment in a fitness club or language school</li>
+                    <li>Taking advantage of a promotion or unique offer</li>
+                    <li>Checking interest in, demand for a product or service that we do not offer yet, but are thinking <br>about introducing them</li>
+            </ul>
+
+            <h2 class="mt-14 text-xl font-bold text-dark lg:text-3xl">I already have a website. Do I need a landing page ?</h2>
+
+            <p class="mt-14 text-lg font-bold lg:text-xl">Remember!</p>
+
+            <p class="mt-14 text-lg font-bold lg:text-xl">A landing page will not replace your website!</p>
+
+            <p class="mt-14 text-base lg:text-lg">However, it can be a great complement to it!!</p>
+
+            <p class="mt-14 text-base lg:text-lg">Do you need help in effectively promoting your offer? Do you want to increase the number of subscribers to your newsletter or blog visits? <br> <span class="font-bold">A landing page will be a great choice.</span></p>
+
+            <p class="mt-14 text-base lg:text-lg">Your business website can be targeted at many people. For example, as the owner of a renovation company, you can address the content of your website to individual customers (owners of single-family houses), business and industrial owners, developers, or even architects. In this case, a well-designed landing page will help you attract the interest of a selected group - e.g. families searching for phrases related to apartment renovation in Google. <span class="font-bold">A landing page will be a great tool for you, especially when you target your offer to a wide audience, and you want to reach only one specific group with a certain promotion or product.</span></p>
+
+            <p class="mt-14 text-base lg:text-lg font-bold">If you don't have any website, but you're going to create or get your first, read our article:<br> <span class="text-sky-700">What the most effective website for small business should contain?</span></p>
+
+            <h2 class="mt-32 text-xl font-bold text-dark lg:text-3xl">What is worth doing before creating a landing page?</h2>
+
+            <p class="mt-14 text-base lg:text-lg">As we have already mentioned, landing pages are <span class="font-bold">extremely important when implementing online marketing <br>campaings.</span>Most often, Internet user find them after clicking on an advertisement (e.g Facebook ads or Google <br>ads) or from mailling campaigns - that's why they should be consistent with them. If a user click on an ad to <br>download a free e-book and is unable perform this action, the landing page will not work. Similarly, if he clicks <br>on an ad to learn about specific services, and other types of services are presented on the landing page - <br>the user will feel disappointed and will quickly leave the site. <span class="font-bold">So it is very important that your landing page is <br>consistent with the campaigns you create.</span></p>
+
+            <p class="mt-14 text-base lg:text-lg">How can you promote your landing page to get even more users?</p>
+
+            <p class="mt-14 text-base lg:text-lg font-bold">Very easy!</p>
+
+            <ul class="px-12 pt-5 list-disc text-base md:text-lg">
+                <li>On sosial media</li>
+                <li>In the email footer</li>
+                <li>In the newsletter</li>
+                <li>In each blog post.</li>
+            </ul>
+
+            <p class="mt-14 text-base lg:text-lg">How ever, you need to consider whether the people to whom you target your offer via your landing page are <br>the same target group that you communicate with on a daily basis or to which you direct other marketing activities.</p>
+
+            <div class="mt-10 px-6 max-w-xl mx-auto justify-center items-center md:max-w-5xl lg:flex lg:max-w-full">
+                <img src="img/picture2.jpg" alt="Tablet" width="500">
+            </div>
+
+            <h2 class="mt-28 text-xl font-bold text-dark lg:text-3xl">What does a good landing page consists of?</h2>
+
+            <p class="mt-14 text-base lg:text-lg">Depending on the goal you want to achieve and offer your landing page concerns, there should be different <br>elements on it.</p>
+
+            <p class="mt-14 text-base lg:text-lg">How ever, there are a number of common and popular tricks that often increase the effectiveness of landing <br>pages, in other words - increase conversion. Before you start working on your landing page, follow the list below <br>and think which of the following elements should be included in your project.</p>
+
+            <ul class="px-12 pt-5 list-disc text-base md:text-lg">
+                <li>Logo</li>
+                <li>Eye-catching headline</li>
+                <li>The most important benefits of your offer</li>
+                <li>Your company's core values</li>
+                <li>Unique advantages of your offer</li>
+                <li>Effective CTA</li>
+                <li>High-quality photos</li>
+                <li>Comprehensive descriptions and professional texts</li>
+                <li>visible contact details</li>
+                <li>Opinions of your customers</li>
+                <li>Customers references</li>
+                <li>A list of clients with whom your company has cooperated so far</li>
+                <li>Expert opinion</li>
+                <li>Price of price comparison</li>
+                <li>Counter showing your company statistics</li>
+                <li>Your team of professionals</li>
+                <li>Video</li>
+                <li>Contact form</li>
+                <li>Chat</li>
+            </ul>
+
+            <p class="mt-14 text-base lg:text-lg font-bold">If you're looking for more content, helpful in creating landing pages and websites, check articles:</p>
+
+            <ul class="px-20 pt-2 list-disc text-base md:text-lg">
+                <li class="pl-3 font-bold"><span class="text-sky-700">The secrets of Writing Effective Headers</span></li>
+                <li class="pl-3 font-bold"><span class="text-sky-700">How to pick the Best Fonts for Your Website?</span></li>
+            </ul>
+
+            <h2 class="mt-14 text-xl font-bold text-dark lg:text-3xl">How to create a landing page in 6 steps?</h2>
+
+            <p class="mt-14 text-base lg:text-lg">Working on a landing page is very simple and should follow the plan below. However, it is important not to skip <br>any of the following steps:</p>
+
+            <ul class="px-20 pt-10 list-disc text-base md:text-lg">
+                <li>Do extensive research</li>
+                <li>Plan the sections you will show</li>
+                <li>Design a mockup (mockup) of the landing page</li>
+                <li>Write the texts</li>
+                <li>Develop a graphic design</li>
+                <li>Build the landing</li>
+            </ul>
+
+            <p class="mt-14 text-base lg:text-lg">Remember that after creating a landing page, it is extremely important to monitor it (check what results it brings,<br> whether the users visiting it follow the sales path you have planned). It is important that you optimize your <br>landing page from time to time to achieve even better results.</p>
+
+            <p class="mt-14 text-base lg:text-lg">If you have done your job correctly, then ideas for possible improvements that are worth testing will certainly <br>come to your mind while working on the first version of the Landing Page. You may also find it helpful to install <br>useful plugins or tools such as Google Analytics or Hotjar.</p>
+
+            <h2 class="mt-24 text-xl font-bold text-dark lg:text-3xl">How to make a landing page?</h2>
+
+            <p class="mt-10 text-base lg:text-lg">Do you want to quickly and easily create a professional landing page that will attract customers to your business? <br>In the <span class="text-sky-700 font-bold">BOWWE</span> page builder, you can do it from a template, from ready-made sections or starting from scratch. <br>You will be able to easily update such a website and adapt it to the changing needs of your business. Thanks to <br>the integration with the <span class="text-sky-700 font-bold">Honaro</span> platform, this tool will allow you to achieve success on the Internet, and this <br>translates into real profits. You don't have time or need help? The BOWWE team will create an effective website <br>for you, tailored to your company and the specificity of the industry in which you operate.</p>
+
+            <h2 class="mt-24 text-xl font-semibold text-dark lg:text-3xl">Contact me and I will be happy to answer any of your questions <br>and advise you on the best solution for your business!</h2>
+        </div>
+        <div class="mt-4 flex w-11/12 justify-end">
+            <a href="#start" class="px-4 py-2 bg-main text-white font-semibold rounded-xl top-0 m-0 uppercase hover:shadow-lg hover:bg-opacity-75 transition duration-300 ease-in-out">Contact</a>
+        </div>
+    </div>
+</section>
+<!-- main end -->
+
+<!-- footer start -->
+<footer class="bg-gradient-to-r from-sky-400 via-sky-500 to-sky-700 pt-24 pb-12">
+    <div class="container">
+        <div class="flex flex-wrap ">
+            <div class="w-full px-4 mb-12 text-white font-medium md:w-1/3">
+                <h2 class="font-bold text-4xl mb-5">Berkat Jaya</h2>
+                <h3 class="font-bold text-2xl mb-2">Contact Me</h3>
+                <p class="">Hilalfadilah@gmail.com</p>
+                <p class="">Jl. Cimacan no.63</p>
+                <p class="">Cianjur</p>
+            </div>
+            <div class="w-full px-4 mb-12 md:w-1/3">
+                <h3 class="font-bold text-4xl text-white mb-5">The office</h3>
+                <ul class="text-white">
+                    <li>
+                        <p class="inline-block text-xl font-bold">Headquoter:</p>
+                    </li>
+                </ul>
+
+                <ul class="text-white">
+                    <li>
+                        <p class="inline-block text-base">pl. św. Macieja 5 lok. 33,</p>
+                    </li>
+                </ul>
+
+                <ul class="text-white">
+                    <li>
+                        <p class="inline-block text-base mb-3">50-244 Wrocław</p>
+                    </li>
+                </ul>
+
+                <ul class="text-white">
+                    <li>
+                        <p class="inline-block text-xl font-bold">Office:</p>
+                    </li>
+                </ul>
+
+                <ul class="text-white">
+                    <li>
+                        <p class="inline-block text-base">ul. Metalowców 25 lok. 18,</p>
+                    </li>
+                </ul>
+
+                <ul class="text-white">
+                    <li>
+                        <p class="inline-block text-base">54-156 Wrocław</p>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="w-full px-4 mb-12 md:w-1/3">
+                <h3 class="font-bold text-4xl text-white mb-5">Sosial media</h3>
+                <ul class="flex items-center">
+                    <li>
+                        <a href="#" target="_blank" class="mr-5 lg:mr-3 flex justify-center items-center text-white hover:text-primary transition duration-300 ease-in-out">
+                            <svg role="img" width="50" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <title>YouTube Gaming</title>
+                                <path d="M24 13.2v-6l-6-3.6-6 3.6-6-3.6-6 3.6v6l12 7.2zM8.4 10.8H6v2.4H4.8v-2.4H2.4V9.6h2.4V7.2H6v2.4h2.4zm7.2 2.4a1.2 1.2 0 01-1.2-1.2c0-.66.54-1.2 1.2-1.2.66 0 1.2.54 1.2 1.2 0 .66-.54 1.2-1.2 1.2zm3.6-2.4A1.2 1.2 0 0118 9.6c0-.66.54-1.2 1.2-1.2.66 0 1.2.54 1.2 1.2 0 .66-.54 1.2-1.2 1.2Z"/>
+                            </svg>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.instagram.com/hilal_fadilah21/" target="_blank" class="mr-5 lg:mr-3 flex justify-center items-center text-white hover:text-primary transition duration-300 ease-in-out">
+                            <title>Instagram</title>
+                            <svg role="img" width="50" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/></svg>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.instagram.com/hilal_fadilah21/" target="_blank" class="mr-5 lg:mr-3 flex justify-center items-center text-white hover:text-primary transition duration-300 ease-in-out">
+                            <svg role="img" width="50" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <title>TikTok</title>
+                                <path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/>
+                            </svg>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.instagram.com/hilal_fadilah21/" target="_blank" class="mr-5 lg:mr-3 flex justify-center items-center text-white hover:text-primary transition duration-300 ease-in-out">
+                            <svg role="img" width="50" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <title>Twitter</title>
+                                <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                            </svg>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.instagram.com/hilal_fadilah21/" target="_blank" class="mr-5 lg:mr-3 flex justify-center items-center text-white hover:text-primary transition duration-300 ease-in-out">
+                            <svg role="img" width="50" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <title>Twitch</title>
+                                <path d="M11.571 4.714h1.715v5.143H11.57zm4.715 0H18v5.143h-1.714zM6 0L1.714 4.286v15.428h5.143V24l4.286-4.286h3.428L22.286 12V0zm14.571 11.143l-3.428 3.428h-3.429l-3 3v-3H6.857V1.714h13.714Z"/>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="w-full pt-10 border-t border-white">
+            <div class="flex w-11/12 justify-between m-auto items-end">
+            <p class="text-sm text-white">&copy;2023 desaigned by <a href="https://www.freepik.com/free-vector/meet-our-team-landing-page-template_5198650.htm#query=flat%20landing%20page&position=7&from_view=search&track=ais " class="font-bold text-white hover:text-teal-300">Freepik Patrickss</a>
+            
+            <p class="text-white text-sm">Build a professional website. Grow your business</p>
+        </div>
+    </div>
+</footer>
+<!-- footer end -->
+
+<script src="dist/script.js"></script>
+</body>
+</html>
